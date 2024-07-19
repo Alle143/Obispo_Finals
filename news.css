@@ -1,0 +1,300 @@
+
+body{
+    background: url(images/bg3.webp);
+    background-attachment: fixed;
+}
+ 
+
+#logo-div{
+    
+    width: auto;
+    min-height: 300px;
+    background-color: black;
+    line-height: 300px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+#label-div{
+    font-size: 60px;
+    flex: 1;
+    min-height: 200px;
+    padding: 40px;
+    margin-right: 10px;
+    color: aqua;
+    line-height: 200px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#parent-div{
+    display: flex;
+}
+
+
+#box1-div{
+    border-radius: 5%;
+    min-height: 200px;
+    width: 25%;
+    padding: 40px;
+    margin-right: 10px;
+    color: black;
+    background-color: black;
+    line-height: 200px;
+    text-align: center;
+    flex: left;
+}
+
+#box2-div{
+    padding: 5%;
+    float: right;
+    width: 75%;
+    background: url(images/apexevent.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 75px;
+    line-height: 25px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+#parent1-div
+{
+ display: flex;
+}
+
+#box3-div
+{
+    border-radius: 10%;
+    font-size: 24px;
+    flex: 1;
+    min-height: 50px;
+    padding: 40px;
+    margin-right: 10px;
+    color: #fff;
+    background-color: black;
+    line-height: 200px;
+    text-align: center;
+    
+
+}
+#box4-div
+
+{
+    border-radius: 10%;
+    font-size: 24px;
+ flex: 1;
+ min-height: 50px;
+ margin-right: 10px;
+ padding: 40px;
+ color: #fff;
+ background-color:black;
+ line-height: 200px;
+ text-align: center;
+
+}
+
+
+#box5-div
+
+{
+    border-radius: 10%;
+    font-size: 24px;
+ flex: 1;
+ min-height: 50px;
+ padding: 40px;
+ margin-right: 10px;
+ color: #fff;
+ background-color: black;
+ line-height: 200px;
+ text-align: center;
+
+}
+
+#box6-div
+
+{
+    border-radius: 10%;
+    font-size: 24px;
+ flex: 1;
+ min-height: 50px;
+ padding: 40px;
+ margin-right: 10px;
+ color: #fff;
+ background-color: black;
+ line-height: 200px;
+ text-align: center;
+
+}
+
+
+#parent2-div
+{
+ display: flex;
+}
+
+
+#box7-div
+
+{
+    border-radius: 10%;
+    font-size: 24px;
+ flex: 1;
+ min-height: 50px;
+ padding: 40px;
+ margin-right: 10px;
+ color: #fff;
+ background-color: black;
+ line-height: 200px;
+ text-align: center;
+
+}
+
+#box8-div
+
+{
+    border-radius: 10%;
+    font-size: 24px;
+ flex: 1;
+ min-height: 50px;
+ padding: 40px;
+ margin-right: 10px;
+ color: #fff;
+ background-color: black;
+ line-height: 200px;
+ text-align: center;
+
+}
+
+#box9-div
+
+{
+    border-radius: 10%;
+ font-size: 24px;
+ flex: 1;
+ min-height: 50px;
+ padding: 40px;
+ margin-right: 10px;
+ color: #fff;
+ background-color: black;
+ line-height: 200px;
+ text-align: center;
+
+}
+
+#box10-div
+
+{
+    border-radius: 10%;
+    font-size: 24px;
+ flex: 1;
+ min-height: 50px;
+ padding: 40px;
+ margin-right: 10px;
+ color: #fff;
+ background-color: black;
+ line-height: 200px;
+ text-align: center;
+
+}
+
+#box11-div
+
+{
+    border-radius: 10%;
+    font-size: 24px;
+ flex: 1;
+ min-height: 50px;
+ padding: 40px;
+ margin-right: 10px;
+ color: #fff;
+ background-color: black;
+ line-height: 200px;
+ text-align: center;
+
+}
+
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+
+#nav-div{
+    border-radius: 25px;
+    width: 100%;
+    min-height: 50px;
+    background-color: #531516;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+
+}
+
+
+#footer-div{
+    width: auto;
+    padding: 2%;
+    min-height: 300px;
+    background-color: black;
+    text-align: center;
+    line-height: 100px;
+    margin-top: 10px;
+}
+
+
+#wrapper-div{
+    width: 90%;
+    margin: auto;
+}
+
+
+li{
+    display: inline;
+    margin-right: 10%;
+    text-decoration: none;
+}
+
+
+a{
+    text-decoration: none;
+    font-size: 16px;
+    color: aqua;
+}
+
+
+img{
+    object-fit: cover;
+}
+
+
+.outro{
+    background-color: black;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: white;
+    font-family: 'Times New Roman';
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 2;
+}
+
+
+a:hover{
+    text-decoration: underline;
+   }
+
+  

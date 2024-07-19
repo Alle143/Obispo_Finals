@@ -1,0 +1,188 @@
+body{
+    background-color: black;
+}
+
+
+#logo-div{
+    width: auto;
+    min-height: 300px;
+    background-color: black;
+    line-height: 300px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#parent-div{
+    display: flex;
+}
+
+#box1-div{
+    min-height: 200px;
+    width: 25%;
+    padding: 40px;
+    margin-right: 10px;
+    color: red;
+    background-color: black;
+    line-height: 200px;
+    text-align: center;
+    flex: left;
+}
+
+
+#box2-div{
+    padding: 5%;
+    float: right;
+    width: 75%;
+    background: url(images/elden.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 75px;
+    line-height: 25px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+#parent1-div{
+    margin-top: 10px;
+    display: flex;
+}
+
+#box3-div{
+    min-height: 200px;
+    width: 25%;
+    padding: 40px;
+    margin-right: 10px;
+    color: red;
+    background-color: black;
+    line-height: 200px;
+    text-align: center;
+    flex: right;
+}
+
+
+#box4-div{
+    margin-right: 10px;
+    padding: 5%;
+    float: left;
+    width: 75%;
+    background: url(images/d2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 75px;
+    line-height: 25px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+#parent2-div{
+    margin-top: 10px;
+    display: flex;
+}
+
+#box5-div{
+    min-height: 200px;
+    width: 25%;
+        
+    margin-right: 10px;
+    color: red;
+    background-color: black;
+    line-height: 200px;
+    text-align: center;
+    flex: left;
+}
+
+
+#box6-div{
+    padding: 5%;
+    float: right;
+    width: 75%;
+    background: url(images/img.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 75px;
+    line-height: 25px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+
+#nav-div{
+    border-radius: 25px;
+    width: 100%;
+    min-height: 50px;
+    background-color: #531516;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+
+}
+
+
+#footer-div{
+    width: auto;
+    padding: 2%;
+    min-height: 300px;
+    background-color: black;
+    text-align: center;
+    line-height: 100px;
+    margin-top: 10px;
+}
+
+
+#wrapper-div{
+    width: 90%;
+    margin: auto;
+}
+
+
+li{
+    display: inline;
+    margin-right: 10%;
+    text-decoration: none;
+}
+
+
+a{
+    text-decoration: none;
+    font-size: 16px;
+    color: aqua;
+}
+
+
+img{
+    object-fit: cover;
+}
+
+
+.outro{
+    background-color: black;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: white;
+    font-family: 'Times New Roman';
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 2;
+}
+
+
+a:hover{
+    text-decoration: underline;
+   }
+

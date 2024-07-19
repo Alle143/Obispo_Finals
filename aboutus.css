@@ -1,0 +1,167 @@
+body {
+    background: black;
+}
+
+#logo-div {
+    width: auto;
+    min-height: 300px;
+    background-color: black;
+    line-height: 300px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+#nav-div {
+    border-radius: 25px;
+    width: 100%;
+    min-height: 50px;
+    background-color: #531516;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#history-div {
+    width: 100%;
+    min-height: 50px;
+    background-color: black;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: aqua;
+    font-size: 32px;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#desc-div {
+    border-radius: 25px;
+    width: 100%;
+    min-height: 25px;
+    background-color: black;    
+    text-align: center;
+    line-height: 25px;
+    margin-top: 10px;
+}
+
+#mission-div {
+    width: 100%;
+    min-height: 50px;
+    background-color: black;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: aqua;
+    font-size: 32px;
+    margin-top: 10px;
+}
+
+#vision-div {
+    width: 100%;
+    min-height: 50px;
+    background-color: black;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: aqua;
+    font-size: 32px;
+}
+
+#footer-div {
+    width: auto;
+    padding: 2%;
+    min-height: 300px;
+    background-color: black;
+    text-align: center;
+    line-height: 100px;
+    margin-top: 10px;
+}
+
+#wrapper-div {
+    width: 90%;
+    margin: auto;
+}
+
+li {
+    display: inline;
+    margin-right: 10%;
+}
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+    color: aqua;
+}
+
+img {
+    object-fit: cover;
+}
+
+#history-p{
+    text-decoration: none;
+    border-radius: 25px;
+    background-color: black;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: white;
+    font-family: 'Times New Roman';
+    font-size: 24px;
+    letter-spacing: 2px;
+    line-height: 2;
+    text-align: justify;
+}
+
+p {
+    text-decoration: none;
+    border-radius: 25px;
+    background-color: black;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: white;
+    font-family: 'Times New Roman';
+    font-size: 24px;
+    letter-spacing: 2px;
+    line-height: 2;
+    text-align: center;
+}
+
+.outro {
+    background-color: black;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: white;
+    font-family: 'Times New Roman';
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 2;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #531516;
+    margin: 20px 0;
+}
